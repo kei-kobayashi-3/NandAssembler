@@ -80,7 +80,7 @@ public class Parser {
     }
   }
 
-  // enable when a or l command
+  // enable when A or L command
   public String symbol() {
     String str = command.replaceAll("[@()]+", "");
     return str;
