@@ -19,8 +19,8 @@ public class Parser {
 
   // getter, setter
 
-  public void setDataNum() {
-    data_num = 0;
+  public void setDataNum(int num) {
+    data_num = num;
   }
 
   public ArrayList<String> getCommandList() {
